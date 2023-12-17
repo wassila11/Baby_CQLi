@@ -5,4 +5,5 @@ There are some applied filters that you need to bypass.
 I only provided the value-score.php file along with the challenge during the CTF.
 
 Please reach out if you encounter any issues when setting up the challenge. 
+
 Writeup: https://wassila-chtioui.com/post/baby_cqli/ 
