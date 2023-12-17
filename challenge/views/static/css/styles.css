@@ -1,0 +1,73 @@
+#minion-game-btn {
+  padding: 10px 20px;
+  background-color: #f8c300; 
+  color: #000; 
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+#minion-game-btn:hover {
+  background-color: #ffd700;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    min-width: 260px;
+    color: #4a4a4a;
+    text-align: center;
+    background-color: #ffeb3b;
+  }
+  
+  #main {
+    margin: 30px auto;
+    padding: 15px;
+    border: 0px solid;
+    border-radius: 5px;
+    background: #1976d2;
+  }
+  
+  #title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #title i {
+    color: #ff5722;
+    font-size: 30px;
+    margin: 0px 20px;
+  }
+  
+  #time {
+    color: #4a4a4a; 
+    font-size: 18px;
+  }
+  
+  h2 {
+    color: #00c853; 
+  }
+  
+  img {
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  .pulse {
+    animation: pulse 0.85s infinite alternate;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  

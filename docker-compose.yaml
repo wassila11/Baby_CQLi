@@ -1,0 +1,13 @@
+version: "3.3"
+
+services:
+    app:
+        build:
+            context: .
+            dockerfile: ./challenge/Dockerfile
+        container_name: sqli-rce
+        restart: always
+        volumes:
+            - ./challenge/views:/var/www/html/
+        ports:
+            - 1234:80
